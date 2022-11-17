@@ -7,7 +7,6 @@
  * 
  * Return: pointer to the created node, or NULL in failure
  */
-//Description: Insert the new node in the place of the parent's left-child's spot, the old left-child must be set as the left-child of the new node.
 
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value){
     binary_tree_t *left_child;
